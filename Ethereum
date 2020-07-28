@@ -1,0 +1,24 @@
+pragma solidity >=0.4.22 <0.7.0;
+import "remix_tests.sol"; // this import is automatically injected by Remix.
+import "../3_Ballot.sol";
+
+contract land {
+   
+    string landowner;
+    
+   function land string newowner 
+   public
+   {
+       landowner = newowner;
+   }
+   function setdetails(string newowner)
+   public
+   {
+       andowner = newowner;
+   }
+   function getdetails() public view returns(string)
+   {
+       return(landowner)
+   }
+}
+    
